@@ -27,10 +27,33 @@
 </head>
 
 <body class="tw-flex tw-font-mono tw-min-h-[100vh] tw-flex-col tw-bg-[#181B20] tw-text-white">
+    <div class="tw-w-full tw-overflow-hidden tw-bg-secondary tw-py-2">
+        <div class="tw-inline-block tw-animate-slide tw-text-center tw-text-white tw-font-medium">
+            Get in touch with us now for early bird offer!🌟🌟🌟 Use Promo Code: BlinkCodeDev2025 for special
+            offer🌟🌟🌟 Get in touch with us now for early bird offer!🌟🌟🌟 Use Promo Code: BlinkCodeDev2025 for
+            special offer🌟🌟🌟
+        </div>
+    </div>
 
+    <style>
+        @keyframes slide {
+            0% {
+                transform: translateX(100%);
+            }
 
-    <header class="lg:tw-justify-around tw-max-w-lg:tw-px-4 tw-max-w-lg:tw-mr-auto tw-absolute tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full tw-bg-opacity-0 tw-px-[5%] 
-                    tw-text-white">
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .tw-animate-slide {
+            white-space: nowrap;
+            animation: slide 15s linear infinite;
+        }
+    </style>
+
+    <header class="lg:tw-justify-around tw-max-w-lg:tw-px-4 tw-max-w-lg:tw-mr-auto tw-relative tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full tw-bg-opacity-0 tw-px-[5%] 
+                    tw-text-white tw-mt-[40px]">
         <a class="tw-h-[50px] tw-w-[50px] tw-p-[4px]" href="">
             <img src="./assets/images/ryan/favicon.jpg" alt="CodeCraft Studios logo"
                 class="tw-object tw-h-full tw-w-full" />
@@ -55,6 +78,7 @@
         <button class="bi bi-list tw-absolute tw-right-3 tw-top-3 tw-z-50 tw-text-3xl tw-text-white lg:tw-hidden"
             onclick="toggleHeader()" aria-label="menu" id="collapse-btn"></button>
     </header>
+
 
     <section
         class="tw-relative tw-flex tw-min-h-[100vh] hero-section tw-w-full tw-max-w-[100vw] tw-flex-col tw-overflow-hidden max-md:tw-mt-[50px]"
@@ -418,7 +442,7 @@
             <div
                 class="reveal-up tw-flex tw-border-[#333a44] tw-bg-[#1d2127] tw-border-[1px] tw-w-[380px] tw-flex-col tw-place-items-center tw-gap-2 tw-rounded-lg tw-p-8 tw-shadow-xl max-lg:tw-w-[320px]">
                 <h3 class="">
-                    <span class="tw-text-5xl tw-font-semibold">RM2,499</span>
+                    <span class="tw-text-5xl tw-font-semibold">RM1,999</span>
                     <span class="tw-text-2xl tw-text-gray-400">/project</span>
                 </h3>
                 <h4 class="tw-text-xl tw-font-medium">Starter Website</h4>
@@ -427,11 +451,12 @@
                 </p>
                 <hr class="tw-my-4 tw-w-full" />
                 <ul class="tw-mt-4 tw-flex tw-flex-col tw-gap-2 tw-text-center tw-text-lg tw-text-gray-200">
-                    <li>5-7 page custom website</li>
+                    <li>5 page custom built website</li>
                     <li>Mobile-responsive design</li>
                     <li>Basic SEO setup</li>
                     <li>Contact form integration</li>
-                    <li>1 month free support</li>
+                    <li>Whatsapp link</li>
+                    <li>3 month free support</li>
                 </ul>
                 <a href="#contact"
                     class="btn tw-mt-8 !tw-w-full tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.02]">
@@ -441,7 +466,7 @@
             <div
                 class="reveal-up tw-flex tw-bg-[#1d2127] tw-w-[380px] tw-flex-col tw-place-items-center tw-gap-2 tw-rounded-lg tw-border-2 tw-border-primary tw-p-8 tw-shadow-xl max-lg:tw-w-[320px]">
                 <h3 class="">
-                    <span class="tw-text-5xl tw-font-semibold">RM5,999</span>
+                    <span class="tw-text-5xl tw-font-semibold">RM3,999</span>
                     <span class="tw-text-2xl tw-text-gray-400">/project</span>
                 </h3>
                 <h4 class="tw-text-xl tw-font-medium">Business Platform</h4>
@@ -450,11 +475,12 @@
                 </p>
                 <hr class="tw-my-4 tw-w-full" />
                 <ul class="tw-mt-4 tw-flex tw-flex-col tw-gap-2 tw-text-center tw-text-lg tw-text-gray-200">
+                    <li>15 page custom built website</li>
                     <li>Custom web application</li>
                     <li>User authentication system</li>
                     <li>Database integration</li>
                     <li>API development</li>
-                    <li>3 months free support</li>
+                    <li>6 months free support</li>
                 </ul>
                 <a href="#contact"
                     class="btn tw-mt-8 !tw-w-full tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.02]">
@@ -464,7 +490,7 @@
             <div
                 class="reveal-up tw-flex tw-border-[#333a44] tw-bg-[#1d2127] tw-w-[380px] tw-flex-col tw-place-items-center tw-gap-2 tw-rounded-lg tw-p-8 tw-shadow-xl max-lg:tw-w-[320px]">
                 <h3 class="">
-                    <span class="tw-text-5xl tw-font-semibold">RM8,999+</span>
+                    <span class="tw-text-5xl tw-font-semibold">RM8,999</span>
                     <span class="tw-text-2xl tw-text-gray-400">/project</span>
                 </h3>
                 <h4 class="tw-text-xl tw-font-medium">Enterprise Solution</h4>
@@ -477,7 +503,8 @@
                     <li>Scalable infrastructure</li>
                     <li>Enterprise security</li>
                     <li>Third-party integrations</li>
-                    <li>6+ months support</li>
+                    <li>Payment Gateway</li>
+                    <li>12 months support</li>
                 </ul>
                 <a href="#contact"
                     class="btn tw-mt-8 !tw-w-full tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.02]">
@@ -573,11 +600,11 @@
                 </div>
                 <select class="input tw-p-3">
                     <option value="" disabled selected>What service are you interested in?</option>
-                    <option>Custom Website</option>
-                    <option>E-Commerce</option>
-                    <option>Web Application</option>
-                    <option>Redesign</option>
-                    <option>Other</option>
+                    <option class="tw-text-black">Custom Website</option>
+                    <option class="tw-text-black">E-Commerce</option>
+                    <option class="tw-text-black">Web Application</option>
+                    <option class="tw-text-black">Redesign</option>
+                    <option class="tw-text-black">Other</option>
                 </select>
                 <textarea class="input tw-h-[150px] tw-p-3" placeholder="Tell us about your project..."></textarea>
                 <a class="btn tw-mt-4 !tw-w-full tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.02]"
@@ -587,11 +614,24 @@
             </div>
         </div>
     </section>
+    <style>
+        /* Ensure dropdown options maintain black text when dropdown is open */
+        select option {
+            color: black !important;
+            background-color: white !important;
+        }
+
+        /* Style for the disabled/placeholder option */
+        select option[disabled] {
+            color: #9CA3AF !important;
+            /* gray-400 */
+        }
+    </style>
 
     <footer
         class="tw-mt-auto tw-flex tw-w-full tw-place-content-around tw-gap-3 tw-p-[5%] tw-px-[10%] tw-text-white max-md:tw-flex-col">
-        <div class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-place-items-center tw-gap-6 max-md:tw-w-full">
-            <img src="./assets/images/ryan/ryan.jpeg" alt="CodeCraft Studios logo" srcset="" class="tw-max-w-[120px]" />
+        <div class="tw-flex tw-h-full tw-w-[300px] tw-flex-col tw-place-items-center tw-gap-6 max-md:tw-w-full">
+            <img src="./assets/images/ryan/favicon.jpg" alt="CodeCraft Studios logo" srcset="" class="tw-max-w-[120px]" />
             <div>
                 RAWANG, SELANGOR,
                 <br />
@@ -620,7 +660,7 @@
             <h2 class="tw-text-3xl max-md:tw-text-xl">Services</h2>
             <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
                 <a href="#services" class="footer-link">Custom Development</a>
-                <a href="#services" class="footer-link">E-Commerce</a>
+                <a href="#services" class="footer-link">E-Commerce (coming soon)</a>
                 <a href="#services" class="footer-link">Web Applications</a>
                 <a href="#services" class="footer-link">UI/UX Design</a>
                 <a href="#services" class="footer-link">Website Maintenance</a>
@@ -647,6 +687,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script src="./index.js"></script>
+
+
 </body>
 
 </html>
